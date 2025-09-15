@@ -1,5 +1,5 @@
 {
-  "name": "secure-publish",
+  "name": "@expressjs/secure-publish",
   "version": "1.0.0",
   "description": "Demo of a secure setup to automatically publish on npm",
   "main": "index.js",
