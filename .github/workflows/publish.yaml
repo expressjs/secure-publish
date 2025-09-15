@@ -40,4 +40,6 @@ jobs:
           fi
 
       - name: publish
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         run: rm -rf node-module .github package-lock.json && npm publish --access public
