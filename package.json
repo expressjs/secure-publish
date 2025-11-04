@@ -4,7 +4,8 @@
   "description": "Demo of a secure setup to automatically publish on npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo test",
+    "lint": "echo lint"
   },
   "repository": {
     "type": "git",

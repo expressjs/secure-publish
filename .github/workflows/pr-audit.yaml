@@ -1,0 +1,11 @@
+name: Audit PR
+on:
+  push:
+
+permissions:
+    id-token: write
+    contents: read
+
+jobs:
+  tests:
+    uses: expressjs/ci-workflows/.github/workflows/tests.yaml@release-reusable-action
